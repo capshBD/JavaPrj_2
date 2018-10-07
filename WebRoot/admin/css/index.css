@@ -1,0 +1,10 @@
+body{margin: 0px;padding: 0px;background: url(../../img/bg.gif) repeat-x}
+iframe{width: 100%;height: 100%;border:#CCC 3px}
+ul{margin: 0px;padding: 0px}
+li{list-style: none}
+a{color: #F0C;text-decoration:blink; font-size:14px; display:block}
+.a{color:#30F; font-size:12px;background-image:none}
+.tab{width: 50%;text-align: center;padding-top:30px;float: left}
+#main{width:60%;height: 400px;margin: auto}
+#menu{width: 20%;height: 50%;float: left}
+#center{width:70%;height: 100%;float: left;padding-left:50px;padding-top:30px}

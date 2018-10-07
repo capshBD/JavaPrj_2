@@ -1,0 +1,8 @@
+body{margin: 0px;padding: 0px;background: url(../../img/bg.gif) repeat-x}
+ul{margin: 0px;padding: 0px}
+li{list-style: none;float: left;width: 190px}
+#clit{text-align: center}
+#lg{clear: both;height:5%;background-color: green;font-size: 20px}
+iframe {width: 100%;height:350px;border:#CCC 3px}
+a{color: #F0C;text-decoration:blink; font-size:20px; display:block}
+.a{color:#30F; font-size:20px;background-image:none}

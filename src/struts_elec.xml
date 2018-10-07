@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+     <package name="elecsys" extends="jfreechart-default">
+     	<action name="elec_*" class="com.sanqing.action.ElecAction" method="{1}">
+     		<result name="showchannel">/user/showChVote.jsp</result>
+     		<result name="voteresult" type="chain">elec_voteResult</result>
+     		<result name="voteRs" type="chart">
+     			<param name="width">800</param>
+     			<param name="height">600</param>
+     		</result>
+     		<result name="input" type="chain">elec_showChannel</result>
+     	</action>
+     	<action name="pieChart3D" class="com.sanqing.action.PieChart3DAction">
+     		<result type="chart">
+     			<param name="width">700</param>
+     			<param name="height">400</param>
+     		</result>
+     	</action>
+     </package>
+
+</struts>
